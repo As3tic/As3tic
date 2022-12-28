@@ -1,0 +1,79 @@
+html * {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.tree {
+  display: flex;
+  justify-content: center;
+}
+
+.thumbnail {
+  margin-left: 25px;
+  height: 100px;
+  width: 100px;
+  border-radius: 45px;
+  position: absolute;
+  --fa-beat-scale: 0.9;
+  --fa-animation-duration: 2s;
+}
+
+.thumbnail {
+  background: #eee;
+  border: 1px solid transparent;
+}
+
+.thumbnail:hover {
+  background: #e1e1e1;
+  border: 4px solid #d0d0d0;
+}
+.username::before {
+  content: "@";
+}
+.username {
+  margin-left: 25px;
+  top: 115px;
+  position: absolute;
+  font-weight: bold;
+}
+
+.username:hover {
+  color: white;
+  background-color: black;
+  padding: 10px 10px 10px 10px;
+  border-radius: 25px;
+}
+
+.social-list {
+  position: absolute;
+  top: 160px;
+}
+
+.link {
+  list-style-type: none;
+  border-style: solid;
+  width: 20vw;
+  padding: 10px 0px 10px 0px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.link:hover {
+  color: white;
+  background-color: black;
+}
+
+.link {
+  margin-bottom: 10px;
+}
+
+a,
+u {
+  text-decoration: none;
+  color: inherit;
+}
+
+i {
+  padding-right: 10px;
+}
